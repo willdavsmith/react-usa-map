@@ -1,7 +1,7 @@
 import React from "react";
 import { configure, shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-15";
-import USAState from "../components/USAState.js";
+import USAState from "../components/USAState.ts";
 
 configure({ adapter: new Adapter() });
 
